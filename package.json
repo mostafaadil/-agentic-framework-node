@@ -1,6 +1,6 @@
 {
   "name": "agentic-framework",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A modular Agentic AI framework powered by DeepSeek, written in Node.js",
   "main": "index.js",
   "scripts": {
