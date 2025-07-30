@@ -12,15 +12,15 @@ A modular Agentic AI framework built with Node.js, powered by DeepSeek. Create a
 ## 📦 Installation
 
 ```bash
-npm install agentic-framework-node
+npm i agentic-framework
 ```
 
 ## 🧠 Usage
 
 ```js
-const ReasoningAgent = require('agentic-framework-node/agents/reasoningAgent');
-const DeepSeekLLM = require('agentic-framework-node/tools/deepSeekLLM');
-const CrewManager = require('agentic-framework-node/crew/crewManager');
+const ReasoningAgent = require('agentic-framework/agents/reasoningAgent');
+const DeepSeekLLM = require('agentic-framework/tools/deepSeekLLM');
+const CrewManager = require('agentic-framework/crew/crewManager');
 
 const strategist = new ReasoningAgent("Eli", "Strategist", [DeepSeekLLM]);
 const crew = new CrewManager([strategist]);
